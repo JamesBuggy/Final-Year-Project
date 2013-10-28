@@ -1,0 +1,43 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted, see the
+# S3E documentation for details.
+
+[S3E]
+#MemSize=5242880	# 5  Mb
+MemSize=40431520 	#20mb
+MemSizeDebugDevice=20971520	# 5  Mb
+MemSizeDebug=40971520		# 20 Mb
+IOSDispScaleFactor=200
+DispFixRot=1
+
+#landscape
+#FixScreenOrientation=2
+
+
+[GX]
+DataCacheSize=1000000
+PolyBufferSize=200000
+VertCacheSize=20000
+DisplayFramerate=0
+NumTPages=300
+UseRgbLighting=1
+ 
+[TRACE]
+UI_VERBOSE=0ds
+
+[Util] 
+MemMgrMaxAllocWarning=0

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<server>
+		<IP>127.0.0.1</IP>
+		<port>28000</port>
+	</server>
+	
+	<player>
+		<IP>10.40.14.217</IP>
+		<port>28001</port>
+	</player>
+	<player>
+		<IP>10.40.12.134</IP>
+		<port>28002</port>
+	</player>
+	
+</document>

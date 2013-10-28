@@ -1,0 +1,72 @@
+ResGroupResources:
+	CIwSoundData (0xd5610dab)
+		"swing_1" (0xb568ec1d)
+		Size: 64534
+	CIwSoundData (0xd5610dab)
+		"swing_2" (0xb568ec1e)
+		Size: 39190
+	CIwSoundData (0xd5610dab)
+		"swing_3" (0xb568ec1f)
+		Size: 39190
+	CIwSoundData (0xd5610dab)
+		"kick_1" (0x91b2a17)
+		Size: 13846
+	CIwSoundData (0xd5610dab)
+		"kick_2" (0x91b2a18)
+		Size: 13846
+	CIwSoundData (0xd5610dab)
+		"kick_3" (0x91b2a19)
+		Size: 8086
+	CIwSoundData (0xd5610dab)
+		"pickup" (0x14c4f851)
+		Size: 177430
+	CIwSoundData (0xd5610dab)
+		"respawn" (0x3f27cba5)
+		Size: 241942
+	CIwSoundData (0xd5610dab)
+		"enemyDeath" (0xf9615f69)
+		Size: 289356
+	CIwSoundData (0xd5610dab)
+		"switch" (0x1cc53777)
+		Size: 22430
+	ResList 'CIwSoundData' pos:37 size:909860
+
+	CIwSoundSpec (0xd569853c)
+		"swing_1" (0xb568ec1d)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"swing_2" (0xb568ec1e)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"swing_3" (0xb568ec1f)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"kick_1" (0x91b2a17)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"kick_2" (0x91b2a18)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"kick_3" (0x91b2a19)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"pickup" (0x14c4f851)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"respawn" (0x3f27cba5)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"enemyDeath" (0xf9615f69)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"switch" (0x1cc53777)
+		Size: 30
+	ResList 'CIwSoundSpec' pos:909897 size:310
+
+	CIwSoundGroup (0x81c24cbe)
+		"Sounds" (0x1c3aeea1)
+		Size: 18
+	ResList 'CIwSoundGroup' pos:910207 size:28
+
+ResGroupResources: Wrote 910202 bytes to CIwResGroup "Sounds"
+

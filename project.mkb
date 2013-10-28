@@ -1,0 +1,139 @@
+options
+{
+	# Specify the location and which .icf file to use
+	#app-icf="data\app.icf"
+}
+
+files
+{
+    (source)
+	
+	"*.cpp"
+	"*.h"
+}
+
+subprojects
+{
+	iwui
+	iw2d
+	iwGx
+	tinyxml
+	./box2d
+	iwresmanager
+	SoundEngine
+	iwhttp
+	
+	s3eFacebook 
+    iwutil
+}
+
+assets
+{
+	(data)
+	config.xml
+	
+	Levels/level1Data.xml
+	Levels/level1.bmp
+	Levels/tutorial.bmp
+	Levels/tutorialData.xml
+	Levels/test1.bmp
+	Levels/test1Data.xml
+	
+	Audio/gameMusic1.mp3
+	Audio/gameMusic2.mp3
+	
+	Audio/swing_1.wav
+	Audio/swing_2.wav
+	Audio/swing_3.wav
+	Audio/kick_1.wav
+	Audio/kick_2.wav
+	Audio/kick_3.wav
+	Audio/pickup.wav
+	Audio/respawn.wav
+	Audio/enemyDeath.wav
+	
+	Fonts/arial14.gxfont
+	Fonts/arial14.tga
+	Fonts/font_large.tga
+	Fonts/font_large.gxfont
+
+	Images/respawn.png
+	Images/metalCrate.png
+	Images/woodenCrate.png
+	Images/woodenCrateSpawner.png
+	Images/damageBoost.png
+	Images/speedBoost.png
+	Images/quitBtnUp.png
+	Images/quitBtnDown.png
+	Images/alter.png
+	Images/redOrb.png
+	Images/greenOrb.png
+	Images/blueOrb.png
+	Images/switch.png
+	Images/door.png
+	Images/ArrowJump.png
+	Images/ArrowLeft.png
+	Images/ArrowRight.png
+	Images/bladeAnim.png
+	Images/DebugAwake.png
+	Images/DebugSleeping.png
+	Images/DebugStatic.png
+	Images/levelComplete.png
+	Images/tile.png
+	Images/topTile.png
+	Images/orb.png
+	Images/pillar.png
+	Images/multPlayer1.png
+	Images/multPlayer2.png
+	Images/player.png
+	Images/player2.png
+	Images/playerDR.png
+	Images/portal.png
+	Images/restart_button.png
+	Images/spikes.png
+	Images/startMessage.png
+	Images/backBtnUp.png
+	Images/backBtnDown.png
+	Images/Level1Btn.png
+	Images/TutorialBtn.png
+	Images/startBtnUp.png
+	Images/startBtnDown.png
+	Images/lvlBtnUp.png
+	Images/lvlBtnDown.png
+	Images/optionsBtnUp.png
+	Images/optionsBtnDown.png
+	Images/meleeEnemy.png
+	Images/bombEnemy.png
+	Images/platform.png
+	Images/grass.png
+	Images/background.bmp
+	Images/blood.png
+	Images/kick.png
+	Images/punch.png
+	Images/menuBackground.png
+	
+	(data-ram)
+	save.xml
+	
+	(data-ram/data-gles1)
+	textures.group.bin
+	sounds.group.bin
+}
+
+deployment
+{
+    # Replace FACEBOOK_APP_ID for login function correctly
+    iphone-bundle-url-schemes="fb160040267492274"
+}
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	app-icf='data/app.icf'
+	caption='Ascend'
+	iphone-appid='ie.itcarlow.jamesbuggy'
+	iphone-icon-ipad='data/Icons/iPadIconM.png'
+	iphone-no-splash=0
+	iphone-splash='data/Icons/splashScreen.png'
+	name='Ascend'
+}

@@ -1,0 +1,11 @@
+CIwResGroup
+{
+	name "Audio"
+
+	#"Audio/kick_1.mp3"
+	#"Audio/kick_2.mp3"
+	#"Audio/kick_3.mp3"
+	#"Audio/swing_1.mp3"
+	#"Audio/swing_2.mp3"
+	#"Audio/swing_3.mp3"
+}

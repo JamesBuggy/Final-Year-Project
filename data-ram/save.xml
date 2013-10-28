@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<document>
+    <player>
+        <xPos>59</xPos>
+        <yPos>-124</yPos>
+    </player>
+    <enemyNum>1</enemyNum>
+    <enemy>
+        <type>2</type>
+        <xPos>169</xPos>
+        <yPos>26</yPos>
+        <patrolA>38</patrolA>
+        <patrolB>56</patrolB>
+    </enemy>
+    <pickupNum>0</pickupNum>
+    <crateNum>0</crateNum>
+    <thisLevel>
+        <name>level1</name>
+        <name>tutorial</name>
+    </thisLevel>
+    <nextLevel />
+</document>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<player2>
+		<xPos>4</xPos>
+		<yPos>62</yPos>
+	</player2>
+	<player>
+		<xPos>20</xPos>
+		<yPos>69</yPos>
+	</player>
+	
+	<levelEnd>
+		<xPos>74</xPos>
+		<yPos>19</yPos>
+		<width>1</width>
+		<height>2.5</height>
+	</levelEnd>
+	
+	<checkpointNum>5</checkpointNum>
+	<checkpoint>
+		<xPos>37</xPos>
+		<yPos>58</yPos>
+		<width>0.5</width>
+		<height>3</height>
+	</checkpoint>
+	<checkpoint>
+		<xPos>25</xPos>
+		<yPos>32</yPos>
+		<width>0.5</width>
+		<height>3</height>
+	</checkpoint>
+	<checkpoint>
+		<xPos>20</xPos>
+		<yPos>16</yPos>
+		<width>0.5</width>
+		<height>7</height>
+	</checkpoint>
+	<checkpoint>
+		<xPos>48</xPos>
+		<yPos>16</yPos>
+		<width>0.5</width>
+		<height>4</height>
+	</checkpoint>
+	<checkpoint>
+		<xPos>60</xPos>
+		<yPos>30</yPos>
+		<width>0.5</width>
+		<height>2</height>
+	</checkpoint>
+	
+	<msgNum>0</msgNum>
+	<elevatorNum>0</elevatorNum>
+	<enemyNum>0</enemyNum>
+	
+	<bladeTrapNum>2</bladeTrapNum>
+	<bladeTrap>
+		<xPos>26</xPos>
+		<yPos>30</yPos>
+	</bladeTrap>
+	<bladeTrap>
+		<xPos>29</xPos>
+		<yPos>30</yPos>
+	</bladeTrap>
+	
+	<spikeTrapNum>3</spikeTrapNum>
+	<spikeTrap>
+		<xPos>30</xPos>
+		<yPos>39</yPos>
+		<width>18</width>
+	</spikeTrap>
+	<spikeTrap>
+		<xPos>33</xPos>
+		<yPos>29</yPos>
+		<width>4</width>
+	</spikeTrap>
+	<spikeTrap>
+		<xPos>41</xPos>
+		<yPos>27</yPos>
+		<width>4</width>
+	</spikeTrap>
+	
+	<platformNum>0</platformNum>
+	<platform>
+		<xPos>31</xPos>
+		<yPos>37</yPos>
+		<width>2</width>
+		<extent1>31</extent1>
+		<extent2>45</extent2>
+	</platform>
+	
+	<doorNum>2</doorNum>
+	<door>
+		<xPos>30</xPos>
+		<yPos>57</yPos>
+		<width>2.5</width>
+		<extent>38</extent>
+		<direction>1</direction>
+		<switchX>26</switchX>
+		<switchY>62</switchY>
+	</door>
+	
+	<door>
+		<xPos>53</xPos>
+		<yPos>24</yPos>
+		<width>2.5</width>
+		<extent>47</extent>
+		<direction>-1</direction>
+		<switchX>53</switchX>
+		<switchY>26</switchY>
+	</door>
+	
+	<pickupNum>5</pickupNum>
+	<pickup>
+		<xPos>28</xPos>
+		<yPos>36</yPos>
+		<type>1</type>
+	</pickup>
+	<pickup>
+		<xPos>31</xPos>
+		<yPos>70</yPos>
+		<type>0</type>
+	</pickup>
+	<pickup>
+		<xPos>34</xPos>
+		<yPos>70</yPos>
+		<type>0</type>
+	</pickup>
+	<pickup>
+		<xPos>14</xPos>
+		<yPos>62</yPos>
+		<type>0</type>
+	</pickup>
+	<pickup>
+		<xPos>16</xPos>
+		<yPos>62</yPos>
+		<type>0</type>
+	</pickup>
+	
+	<thisLevel>
+		<name>multLvl1</name>
+	</thisLevel>
+	<nextLevel>
+		<name>multLvl1</name>
+	</nextLevel>
+	
+</document>

@@ -1,0 +1,110 @@
+CIwResGroup
+{
+	name Sounds
+
+	"Audio/swing_1.wav"
+	"Audio/swing_2.wav"
+	"Audio/swing_3.wav"
+	"Audio/kick_1.wav"
+	"Audio/kick_2.wav"
+	"Audio/kick_3.wav"
+	"Audio/pickup.wav"
+	"Audio/respawn.wav"
+	"Audio/enemyDeath.wav"
+	"Audio/switch.wav"
+
+	// Create sound specs
+	CIwSoundSpec
+	{
+		name		"swing_1"		# The name we want to use to refer to this sound effect in out code
+		data		"swing_1"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"swing_2"		# The name we want to use to refer to this sound effect in out code
+		data		"swing_2"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"swing_3"		# The name we want to use to refer to this sound effect in out code
+		data		"swing_3"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+
+	CIwSoundSpec
+	{
+		name		"kick_1"		# The name we want to use to refer to this sound effect in out code
+		data		"kick_1"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"kick_2"		# The name we want to use to refer to this sound effect in out code
+		data		"kick_2"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"kick_3"		# The name we want to use to refer to this sound effect in out code
+		data		"kick_3"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+
+	CIwSoundSpec
+	{
+		name		"pickup"		# The name we want to use to refer to this sound effect in out code
+		data		"pickup"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+
+	CIwSoundSpec
+	{
+		name		"respawn"		# The name we want to use to refer to this sound effect in out code
+		data		"respawn"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+
+	CIwSoundSpec
+	{
+		name		"enemyDeath"		# The name we want to use to refer to this sound effect in out code
+		data		"enemyDeath"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+
+	CIwSoundSpec
+	{
+		name		"switch"		# The name we want to use to refer to this sound effect in out code
+		data		"switch"		# The WAv file name (without .wav
+		vol 		0.7				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+
+	// Create a sound group to contain all of our sound specs
+	CIwSoundGroup
+	{
+		name		"Sounds"
+		maxPolyphony 8				# Maximum sounds that can be played simultaneously
+		killOldest	false			# Tell system not to stop the oldest sound effects frmo playing if we run out of channels
+		addSpec		"kick_1"		# Add the explosion sound spec to our sound group
+		addSpec		"kick_2"
+		addSpec		"kick_3"
+		addSpec		"swing_1"
+		addSpec		"swing_2"
+		addSpec		"swing_3"
+		addSpec		"respawn"
+		addSpec		"enemyDeath"
+		addSpec		"switch"
+	}
+
+}
